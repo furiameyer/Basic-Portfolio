@@ -1,5 +1,5 @@
 * {
-    box-sizing: borderbox;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,6 +32,23 @@ body {
     z-index: 10;
 }
 
+#Navbox {
+    position: fixed;
+    width: 960px;
+    margin: 0px auto 0px auto;
+    height: 71px;
+    top: 0px;
+    position: relative
+}
+
+#Myname {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 19px;
+    z-index: 10;
+}
+
 #About, #Portfolio, #Contact {
     float: right;
     padding-left: 10px;
@@ -55,14 +72,6 @@ body {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     position: relative;
-}
-
-#Myname {
-    position: absolute;
-    padding: 20px;
-    top: -102px;
-    left: 0px;
-    z-index: 100;
 }
 
 #contentbox {
@@ -113,6 +122,7 @@ footer {
     border: 1px solid #cccccc;
     margin-bottom: 20px;
     margin-right: 20px;
+    height: 177px;
 }
 
 .Portfoliopics {
